@@ -1,7 +1,7 @@
 
 * {
-  margin: 50px;
-  padding: 50px;
+  margin: 25px;
+  padding: 25px;
 }
 body{
   background-color: #black;
@@ -44,6 +44,7 @@ p.blauw:hover {
 table.personen { /* Een rand om de buitenkant alleen*/
   border: 10px solid #1E90FF;
   border-radius: 40px 40px 40px 40px;
+  color: lime
 }
 
 table.personen th {
@@ -66,7 +67,7 @@ table.personen td {
 }
 #menu {
   border: 1px solid grey
-  background-color: #1E90FF;
+    background-color: #1E90FF;
   overflow: hidden;
   margin: 40px;
   padding: 40px;
@@ -95,10 +96,6 @@ table.personen td {
 
 #menu a:hover {  /* Als je met je muis over een link gaat*/
   color: black;
-  background-color:#4682B4 ;
-  border-radius: 40px 40px 40px 40px;
-  margin: 25px;
-  padding:25px;
 }
 #menu a {  /* Selecteer de links uit het menu*/
   color: white;
